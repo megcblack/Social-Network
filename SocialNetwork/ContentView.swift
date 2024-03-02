@@ -9,18 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack (alignment: .leading) {
-            Text("Meghan Black")
-                .font(.title)
-            HStack {
-                Text("RIT Swimming and Diving")
-                    .font(.subheadline)
-                Spacer()
-                Text("Rochester, NY")
-                    .font(.subheadline)
+        VStack {
+            ProfileImageView()
+            VStack (alignment: .leading) {
+                Text("Meghan Black")
+                    .font(.title)
+                HStack {
+                    Text("RIT Swimming and Diving")
+                    Spacer()
+                    Text("Rochester, NY")
+                }
+                .font(.subheadline)
+                .foregroundColor(.gray)
+                Divider()
+                Text("Activity:")
+                    .font(.title2)
             }
         }
         .padding()
+        Spacer()
     }
 }
 

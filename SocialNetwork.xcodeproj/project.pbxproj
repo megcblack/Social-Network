@@ -11,6 +11,7 @@
 		345FAB532B93B3D1001D264B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345FAB522B93B3D1001D264B /* ContentView.swift */; };
 		345FAB552B93B3D2001D264B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345FAB542B93B3D2001D264B /* Assets.xcassets */; };
 		345FAB582B93B3D2001D264B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345FAB572B93B3D2001D264B /* Preview Assets.xcassets */; };
+		345FAB612B93BE38001D264B /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345FAB602B93BE38001D264B /* ProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		345FAB522B93B3D1001D264B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		345FAB542B93B3D2001D264B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		345FAB572B93B3D2001D264B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		345FAB602B93BE38001D264B /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				345FAB502B93B3D1001D264B /* SocialNetworkApp.swift */,
 				345FAB522B93B3D1001D264B /* ContentView.swift */,
+				345FAB602B93BE38001D264B /* ProfileImageView.swift */,
 				345FAB542B93B3D2001D264B /* Assets.xcassets */,
 				345FAB562B93B3D2001D264B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345FAB612B93BE38001D264B /* ProfileImageView.swift in Sources */,
 				345FAB532B93B3D1001D264B /* ContentView.swift in Sources */,
 				345FAB512B93B3D1001D264B /* SocialNetworkApp.swift in Sources */,
 			);
